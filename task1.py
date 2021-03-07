@@ -19,3 +19,5 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 (2 points) 
 """
 
+def sentence(greeting, name = "Benjamin", question = "How are you"):
+    return greeting + " " + name + ". " + question
