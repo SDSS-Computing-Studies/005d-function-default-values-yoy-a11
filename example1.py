@@ -13,7 +13,7 @@ def multiply(x=2):
   # include a return None statement to show it has no output
   
     print(x*2)
-    
+    return None
     
     
 
