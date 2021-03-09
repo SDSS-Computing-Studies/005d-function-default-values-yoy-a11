@@ -18,5 +18,5 @@ def multiplication(num, t = 12):
     lst = []
     for i in range(t):
         num = num * (i + 1)
-        lst.append(num)
+        lst.append(number)
     return lst
